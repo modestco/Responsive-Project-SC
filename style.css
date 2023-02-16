@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #171539;
+  --primary-font: "poppins", sans-serif;
+  --secondary-color: #bd7877;
+  --secondary-font: "Cookie", cursive;
+  --accent-color: #6a7b73;
+  --pink-accent-color: #bd7877;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "cookie", cursive;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+#buttonFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+}
