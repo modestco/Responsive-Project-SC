@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com?ckcachebust=4EEFD60F439096ED98B6D8A585DA12EF"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Cookie&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="Istyle.css?ckcachebust=03B894D4A2B19CB4F31EF4B9650B987B"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,14 +39,23 @@
 
   <body>
     <div>
-      <h1>Jen Luchka</h1>
-      <i class="fa-brands fa-canadian-maple-leaf"></i>
+      <h1
+        class="mt-5"
+        style="
+          font-family: 'cookie', sans-serif;
+          font-size: 70px;
+          text-align: center;
+        "
+      >
+        Jen Luchka <br />
+        <i class="fa-brands fa-canadian-maple-leaf"></i>
+      </h1>
     </div>
     <div class="container">
       <div class="d-inline-flex flex-row justify-content-center">
-        <div class="p-2">
-          <h2 class="p-1">About me:</h2>
-          <article class="p-3">
+        <div class="para-2 m-1 p-3">
+          <h2 class="para-1">About me:</h2>
+          <article class="para-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -49,9 +65,9 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </article>
         </div>
-        <div class="p-2">
+        <div class="para-2 m-1 p-3">
           <h2>My goals:</h2>
-          <article class="p-3">
+          <article class="para-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -63,27 +79,42 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="buttonFlex" id="contact">
       <a
-        class="btn btn-outline-info m-3 p-3"
+        class="btn btn-outline-info m-1 p-3"
         role="button"
         style="
-          background-color: var();
+          background-color: var(--pink-accent-color);
           color: white;
           border: none;
           justify-content: center;
         "
-        href=""
+        href="mailto:jen@modestco.ca"
       >
         Contact Me
       </a>
+      <a
+        class="btn btn-outline-info m-1 p-3"
+        role="button"
+        style="
+          background-color: var(--pink-accent-color);
+          color: white;
+          border: none;
+          justify-content: center;
+        "
+        href="index.html"
+      >
+        Return Home
+      </a>
     </div>
-    <h6 style="color: var(--secondary-color)">
-      <i
-        class="fa-duotone fa-mailbox me-3"
-        style="color: var(--secondary-color)"
-      ></i
-      >jen@modestco.ca
-    </h6>
+    <div class="footerWrap">
+      <h6 style="color: var(--primary-color)">
+        <i
+          class="fa-duotone fa-mailbox me-3 fa-2xl"
+          style="color: var(--secondary-color)"
+        ></i
+        >jen@modestco.ca
+      </h6>
+    </div>
   </body>
 </html>

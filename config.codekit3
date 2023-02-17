@@ -10,32 +10,12 @@
   "creatorBuild" : "34448",
   "files" : {
     "\/about.html" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/about.html",
       "oF" : 0
-    },
-    "\/about\/about.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/about\/about.html",
-      "oF" : 0
-    },
-    "\/Astyle.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/Astyle-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/index.html" : {
       "cB" : 0,
