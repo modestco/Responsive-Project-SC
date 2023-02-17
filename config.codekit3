@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34448",
   "files" : {
+    "\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about.html",
+      "oF" : 0
+    },
     "\/about\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17,7 +25,7 @@
       "oAP" : "\/about\/about.html",
       "oF" : 0
     },
-    "\/about\/style.css" : {
+    "\/Astyle.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -25,19 +33,19 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/about\/style-min.css",
+      "oAP" : "\/Astyle-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/index\/index.html" : {
+    "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index\/index.html",
+      "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/index\/style-min.css" : {
+    "\/Istyle.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -45,19 +53,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/index\/style-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/index\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/index\/style-min.css",
+      "oAP" : "\/Istyle-min.css",
       "oF" : 0,
       "pg" : 0
     },
