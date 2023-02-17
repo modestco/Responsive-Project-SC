@@ -14,7 +14,8 @@ body {
 h1 {
   font-family: "cookie", cursive;
   color: var(--accent-color);
-  margin: 0;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .container {
@@ -25,10 +26,15 @@ h1 {
 }
 .fa-canadian-maple-leaf {
   color: crimson;
+  justify-content: center;
+  width: 100px;
 }
 
 .p-2 {
-  background-color: #171539;
-  color:white;
-  wi
+  background-color: var(--primary-color);
+  color: white;
+  width: 500px;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
 }
